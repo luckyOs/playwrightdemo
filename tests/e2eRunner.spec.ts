@@ -4,7 +4,7 @@ import { ProductPage } from '../pages/ProductPage';
 import { CartPage } from '../pages/CartPage';
 import { LoginPage } from '../pages/LoginPage';
 import { user } from '../utils/credentials';
-
+//step01
 test('Full eCommerce flow: login, search, cart, checkout, logout', async ({ page }) => {
   const home = new HomePage(page);
   const product = new ProductPage(page);
